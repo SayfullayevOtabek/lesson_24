@@ -1,0 +1,47 @@
+.icon_infor{
+   
+&_p-1{
+    font-family: Gilroy;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+&__icon__cards__1{
+    margin-left: 150px;
+    margin-top: 70px;
+}
+
+&__icon__cards__1_article{
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 250px;
+    font-family: Gilroy-Light;
+font-size: 24px;
+font-weight: 600;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+}
+&__icon__cards__1_article_about{
+    margin-left: 250px;
+    margin-top: -40px;
+    font-family: Gilroy-Light;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+&__icon__cards__1_article_about_phone{
+    // position: absolute;
+    margin-left: 700px;
+    margin-top: -600px;
+}
+
+}

@@ -1,0 +1,182 @@
+.costumer{
+    &_chat{
+        font-family: Gilroy;
+        font-size: 46px;
+        font-weight: 800;
+        line-height: 64px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-top: 50px;
+
+    }
+    &_chat_cards_1{
+        margin-top: 50px;
+        width: 540px;
+        height: 232px;
+        border-radius: 6px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+    &_chat_cards_2{
+        margin-top: 50px;
+        width: 540px;
+        height: 232px;
+        border-radius: 6px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+    &_chat_cards{
+        display: flex;
+        justify-content: space-around;
+    }
+    &_chat_cards_1_about{
+        //styleName: Subtitle / Subtitle 2;
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-top: 30px;
+
+    }
+    &_chat_cards_1_about_article{
+        font-family: Gilroy-Light;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-top: 30px;
+
+    }
+    
+    &_chat_cards_2_about{
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-top: 30px;
+    }
+    &_chat_cards_2_about_article{
+        font-family: Gilroy-Light;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-top: 30px;
+
+    }
+    &_chat_cards_2_about_article_person_1{
+        margin-top: 100px;
+        margin-left: -500px;
+        position: absolute;
+    }
+    &_chat_cards_2_about_article_person_1_title{
+        font-family: Gilroy;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 28px;
+        letter-spacing: 0em;
+        position: absolute;
+        margin-top: 100px;
+        margin-left: -420px;
+
+    }
+    &_chat_cards_2_about_article_person_1_title_menu{
+        font-family: Gilroy-Light;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        position: absolute;
+        margin-top: 130px;
+        margin-left: -420px;
+
+    }
+    &_chat_cards_2_about_article_person_2{
+        margin-top: 100px;
+        margin-left: 200px;
+        position: absolute;
+    }
+    &_chat_cards_2_about_article_person_2_title{
+        font-family: Gilroy;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 28px;
+        letter-spacing: 0em;
+        position: absolute;
+        margin-top: 100px;
+        margin-left: 280px;
+
+    }
+    &_chat_cards_2_about_article_person_2_title_menu{
+        font-family: Gilroy-Light;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        position: absolute;
+        margin-top: 130px;
+        margin-left: 280px;
+
+    }
+    &_chat_cards_2_about_article_person_2_title_menu_bg-img{
+        margin-top: 200px;
+        width: 1110px;
+        height: 288px;
+        border-radius: 6px;
+        margin-left: 115px;
+        position: relative;
+
+    }
+    &_chat_cards_2_about_article_person_2_title_menu_bg-img_frame{
+        position: absolute;
+        margin-left: -1050px;
+        margin-top: 215px;
+        
+    }
+    &_chat_cards_2_about_article_person_2_title_menu_bg-img_frame_p-1{
+        position: absolute;
+        margin-top: -200px;
+        margin-left: 600px;
+        font-family: Gilroy;
+        font-size: 33px;
+        font-weight: 800;
+        line-height: 41px;
+        letter-spacing: 0em;
+        color:white;
+
+    }
+
+}
+.costumer-input{
+    width:  368px;
+    height: 52px;
+    border-radius: 3px, 0px, 0px, 3px;
+    position: absolute;
+    margin-left: -620px;
+    margin-top: 400px;
+    border-radius: 5px;
+
+}
+.costumer-btn{
+    width: 120px;
+height: 48px;
+padding: 14px, 24px, 14px, 24px;
+border-radius: 0px, 5px, 5px, 0px;
+gap: 10px;
+background-color:black;
+position: absolute;
+margin-top: 401px;
+margin-left: -372px;
+
+}
+.costumer-btn span{
+    color:white;
+}
+
+

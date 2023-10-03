@@ -1,0 +1,124 @@
+.footer_row{
+    &_bg{
+        margin-top: 100px;
+        width: 1300px;
+        height: 522px;
+        z-index: 1;
+
+    }
+    &_bg_logo-img{
+        position: absolute;
+        margin-top: 300px;
+        margin-left: -1100px;
+    }
+    &_item{
+        position: absolute;
+        margin-top: -330px;
+        margin-left: 600px;
+    }
+    &_item_menu{
+        position: absolute;
+        margin-top: -330px;
+        margin-left: 900px;
+    }
+}
+.main__text{
+    font-family: Gilroy;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color: #F4F5F7;
+
+}
+.list__items{
+    margin-top: 10px;
+    font-family: Gilroy-Light;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+color: #EEEFF4;
+
+}
+.footer_card{
+    width: 1300px;
+height: 72px;
+top: 448px;
+background: #141B23;
+z-index: 0;
+margin-top: -10px;
+
+}
+.footer_card p{
+    font-family: Gilroy-Light;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+color: #D9DBE1;
+padding-top: 25px;
+margin-left: 165px;
+
+
+}
+@media(max-width:375px)
+{
+    .footer_row
+{
+    background-color: #1D2530;
+    padding: 111px 0px 78px 0px;
+    .footer_row_bg_logo-img
+    {
+        display: flex;
+        justify-content: space-between;
+        .footer_row_item
+        {
+            display: grid;
+            grid-template-columns: 211px;
+            grid-template-rows: 208px 208px;
+            gap: 126px;
+            padding-left: 120px;
+            .list__items
+            {
+                display: flex;
+                flex-wrap: nowrap;
+                flex-direction: column;
+                gap: 16px;
+                .main__text
+                {
+                    font-family: Gilroy;
+                    font-size: 20px;
+                    font-weight: 500;
+                    line-height: 30px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: #FFFFFF;
+                }
+                .list__items
+                {
+                    width: 216px;
+                    font-family: Gilroy;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 26px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    border-bottom: 1px transparent solid;
+                    a
+                    {
+                        color: #EEEFF4;
+                    }
+                }
+                .list__items:hover
+                {
+                    border-bottom: 1px #FFFFFF solid;
+                }
+
+            }
+        }
+    }
+}
+}

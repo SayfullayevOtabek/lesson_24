@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: $primary-color;
+  color: $text-color;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}

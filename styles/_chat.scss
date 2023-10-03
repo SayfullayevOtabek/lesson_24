@@ -1,0 +1,102 @@
+.media_chat{
+    &_menu{
+        font-family: Gilroy;
+        font-size: 46px;
+        font-weight: 800;
+        line-height: 64px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-top: 100px;
+
+    }
+    &_menu_lines{
+        margin-top: 20px;
+        margin-left: 70px;
+    }
+    &_menu_lines_1{
+        position: absolute;
+        margin-left: -1000px;
+        margin-top: 70px;
+    }
+    &_menu_lines_2{
+        position: absolute;
+        margin-left: -590px;
+        margin-top: 110px;
+    }
+    &_menu_lines_3{
+        position: absolute;
+        margin-left: -180px;
+        margin-top: 40px;
+    }
+    &_menu_lines_1_bot{
+        position: absolute;
+        font-family: Gilroy;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 28px;
+        letter-spacing: 0em;
+        margin-top: -100px;
+        margin-left: 180px;
+
+    }
+   &_menu_lines_1_bot_about{
+    font-family: Gilroy-Light;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 180px;
+   } 
+   &_menu_lines_2_tocha{
+    position: absolute;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    margin-top: -70px;
+    margin-left: 550px;
+
+}
+&_menu_lines_2_tocha_about{
+    font-family: Gilroy-Light;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 550px;
+   } 
+   &_menu_lines_3_chat{
+    position: absolute;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    margin-top: -140px;
+    margin-left: 980px;
+
+}
+&_menu_lines_3_chat_about{
+    font-family: Gilroy-Light;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    position: absolute;
+    margin-top: -110px;
+    margin-left: 980px;
+   } 
+   &_menu_lines_img{
+    width: 1300px;
+    height: 748px;
+    top: 332px;
+    left: 5px;
+    
+
+   }
+}

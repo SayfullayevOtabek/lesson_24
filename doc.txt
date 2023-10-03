@@ -1,0 +1,11 @@
+
+1-way install sass
+
+node js  o'rnatsilar
+terminalni ochib (win + r)
+
+node -v ni yozasizlar
+
+npm i -g sass
+
+sass --watch styles/main.scss:styles/main.css
